@@ -6,8 +6,16 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.Controller;
 
-public class ListController implements Controller{
+import com.newlecture.web.service.NoticeService;
 
+public class ListController implements Controller{
+	
+	private NoticeService noticeService;
+
+	public void setNoticeService(NoticeService noticeService) {
+		this.noticeService = noticeService;
+	
+	}
 	@Override
 	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		
@@ -16,5 +24,6 @@ public class ListController implements Controller{
 		//mv.setViewName("/WEB-INF/view/notice/list.jsp");
 		return mv;
 	}
+
 
 }
