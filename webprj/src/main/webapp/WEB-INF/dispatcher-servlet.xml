@@ -34,6 +34,7 @@
 	</bean>
 
 	<mvc:resources location="/static/" mapping="/**"></mvc:resources>
+	
 	<bean class="com.newlecture.web.service.NoticeService" />
 
 </beans>

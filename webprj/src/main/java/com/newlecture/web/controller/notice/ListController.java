@@ -22,6 +22,8 @@ public class ListController implements Controller{
 		ModelAndView mv = new ModelAndView("notice.list");
 		
 		//mv.setViewName("/WEB-INF/view/notice/list.jsp");
+		noticeService.getList(1, "title", "");
+		
 		return mv;
 	}
 
