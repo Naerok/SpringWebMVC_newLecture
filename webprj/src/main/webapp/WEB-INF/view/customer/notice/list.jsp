@@ -57,7 +57,7 @@
 					<td>newlec</td>
 					<td>2019-08-15</td>
 					<td>131</td>
-				</tr>
+				</tr> 
 
 				<tr>
 					<td>6</td>
