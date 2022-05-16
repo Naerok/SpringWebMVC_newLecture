@@ -55,25 +55,7 @@
 
   </dependencies>
   
-	 <repositories>
-	 <repository>
-	    <id>mesir-repo</id>
-	    <url>https://maven.atlassian.com/3rdparty/</url>
-	</repository>
-	
-	  <!-- 오라클 JDBC라이브러리 관리 사이트 -->
-	  <repository>
-	    <id>oracle</id>
-	    <name>Oracle JDBC Repository</name>
-	    <url>http://repo.spring.io/plugins-release/</url>
-	  </repository>
 	  
-	  
-
-	 </repositories>
- 
- 
- 
   
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
